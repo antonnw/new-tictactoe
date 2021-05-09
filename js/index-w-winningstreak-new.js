@@ -220,39 +220,3 @@ function checkGame(winBoard, id, count, game_level, currentPlayer, btn, winning_
 	
 	if(check){ return true; }
 }
-// function checkGame(id, count, game_level, currentPlayer, btn, winning_streak){
-	// $("#"+id).text(currentPlayer);
-	// $("#"+id).addClass('disable '+currentPlayer+' '+btn);
-	
-	// var counter_win_o = 0;
-	// var counter_win_x = 0;
-	// for(var row=0; row < game_level; row++){		
-		// for(var col=0; col < game_level; col++){
-			// if(winBoard[row][col] == currentPlayer){
-				// if(currentPlayer == "o"){
-					// counter_win_o++;
-				// }
-				// else if(currentPlayer == "x"){
-					// counter_win_x++;
-				// }
-			// }
-			// else{
-				// if(currentPlayer == "o"){
-					// counter_win_o = 0;
-				// }
-				// else if(currentPlayer == "x"){
-					// counter_win_x = 0;
-				// }
-			// }
-			
-			// if(counter_win_o == winning_streak){
-				// alert("O wins");
-			// }
-			// else if(counter_win_x == winning_streak){
-				// alert("x wins");
-			// }
-		// }
-		
-	// }
-	// alert();
-// }
